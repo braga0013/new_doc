@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pymupdf
+python-docx
+google-generativeai
+openai-whisper
+opencv-python
+selenium
+python-multipart
