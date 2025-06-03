@@ -11,7 +11,7 @@ import tempfile
 import shutil
 
 
-genai.configure(api_key="")
+genai.configure(api_key=os.environ.get("GENAI_API_KEY"))
 
 router = APIRouter()
 

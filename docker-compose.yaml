@@ -6,3 +6,5 @@ services:
       - "8080:8080"
     volumes:
       - ./arquivos:/app/arquivos
+    environment:
+      - GENAI_API_KEY=${GENAI_API_KEY}
